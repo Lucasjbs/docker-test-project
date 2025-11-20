@@ -9,5 +9,5 @@ export const connection: Pool = createPool({
   password: process.env.DB_PASSWORD,
   database: process.env.DB_NAME,
   multipleStatements: true,
-  port: 3406,
+  port: 3306,
 });
