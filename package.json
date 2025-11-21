@@ -7,7 +7,7 @@
   "main": "build/index.js",
   "type": "commonjs",
   "scripts": {
-    "migrate": "ts-node run-migration.ts",
+    "migrate": "ts-node src/run-migration.ts",
     "dev": "nodemon src/index.ts",
     "start": "node build/index.js",
     "build": "tsc",
