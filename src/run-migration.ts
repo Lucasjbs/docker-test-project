@@ -3,6 +3,7 @@ import path from "path";
 import { connection } from "./database";
 
 async function runMigration() {
+  // const sqlPath = path.join(__dirname, "../init.sql");
   const sqlPath = path.join(process.cwd(), "../init.sql");
   const sql = fs.readFileSync(sqlPath, "utf-8");
 
